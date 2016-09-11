@@ -1,0 +1,9 @@
+{
+    "preset": "google",
+    "validateIndentation": 4,
+    "validateQuoteMarks": "\"",
+    "requireSpacesInFunctionExpression": null,
+    "disallowKeywordsOnNewLine": false,
+    "requireSpaceBeforeBlockStatements": false,
+    "disallowMultipleLineStrings": false
+}

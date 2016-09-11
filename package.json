@@ -1,0 +1,46 @@
+{
+  "name": "nihongo",
+  "version": "1.0.0",
+  "description": "Simple Japanese language utility library",
+  "main": "nihongo.js",
+  "scripts": {
+    "test": "mocha test/*"
+  },
+  "keywords": [
+    "japanese",
+    "nihongo",
+    "language",
+    "hiragana",
+    "katakana",
+    "kana",
+    "kanji"
+  ],
+  "author": "Darren Lester <dsslester@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "array-includes": "^3.0.2",
+    "iskanji": "^1.0.2",
+    "joyo-kanji": "^0.2.1",
+    "kyoiku-kanji": "^0.1.0",
+    "string-some": "^1.0.0"
+  },
+  "devDependencies": {
+    "array-equal": "^1.0.0",
+    "basic-hiragana": "^1.0.0",
+    "basic-katakana": "^1.0.0",
+    "chai": "^3.5.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jshint": "^2.0.1",
+    "jshint": "^2.9.3",
+    "mocha": "^3.0.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darren-lester/nihongo.git"
+  },
+  "homepage": "https://github.com/darren-lester/nihongo#readme"
+}

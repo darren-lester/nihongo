@@ -15,7 +15,7 @@
     "kana",
     "kanji"
   ],
-  "author": "Darren Lester <dsslester@gmail.com>",
+  "author": "Darren Lester <dsslester@gmail.com> (http://www.darrenlester.com)",
   "license": "MIT",
   "dependencies": {
     "array-includes": "^3.0.2",

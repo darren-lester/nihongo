@@ -1,6 +1,6 @@
 {
   "name": "nihongo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple Japanese language utility library",
   "main": "nihongo.js",
   "scripts": {

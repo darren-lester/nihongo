@@ -1,15 +1,15 @@
-#nihongo.js
+# nihongo.js
 
-##Install
+## Install
 
 ```bash
 npm install nihongo
 ```
 
-##API
+## API
 nihongo.js has methods for analysing characters and sentences and parsing sentences.
 
-###Analysis
+### Analysis
 
 ```javascript
 // Determine whether or not a character is a hiragana
@@ -59,7 +59,7 @@ nihongo.hasJapanese("This sentence has no Japanese"); // false
 nihongo.contains("これはクッキーです。"); // {hiragana: true, katakana: true, kanji: false}
 ```
 
-###Parsing
+### Parsing
 
 ```javascript
 // Extract an array of hiragana from a string
@@ -81,12 +81,12 @@ nihongo.parseKanjiCompounds("私はクッキーが大好きです。"); // ["私
 nihongo.parseJapanese("This is an English sentence. This sentence contains both 日本語 and English. これは日本語の文。"); // ["日本語", "これは日本語の文"]
 ```
 
-##Tests
+## Tests
 
 ```bash
 $ npm install
 $ npm test
 ```
 
-##License
+## License
 [MIT](LICENSE)
